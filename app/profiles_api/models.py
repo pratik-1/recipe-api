@@ -38,7 +38,7 @@ class UserProfileManager(BaseUserManager):
 
 
 class UserProfile(AbstractBaseUser, PermissionsMixin):
-    """Database model for custom users in the system with email 
+    """Database model for custom users in the system with email
     instead of name as username field"""
     email = models.EmailField(max_length=255, unique=True)
     name = models.CharField(max_length=255)
