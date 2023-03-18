@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
 # C extensions
 *.so
 
@@ -113,6 +114,10 @@ venv.bak/
 # Spyder project settings
 .spyderproject
 .spyproject
+
+# VSCode
+.vscode
+.profile*
 
 # Rope project settings
 .ropeproject
