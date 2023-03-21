@@ -125,7 +125,12 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-STATIC_URL = "static/"
+STATIC_URL = "/static/static/"
+MEDIA_URL = "/static/media/"
+
+# location of file system
+STATIC_ROOT = "/vol/web/static"
+MEDIA_ROOT = "/vol/web/media"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
@@ -141,4 +146,9 @@ AUTH_USER_MODEL = "core.User"
 REST_FRAMEWORK = {
     # YOUR SETTINGS
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+}
+
+# To be able to upload the image through browsable interface
+SPECTACULAR_SETTINGS = {
+    "COMPONENT_SPLIT_REQUEST": True,
 }
