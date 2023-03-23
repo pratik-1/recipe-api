@@ -70,6 +70,7 @@ This containerized portable application is able to create new user, creates mult
 - Django Rest Framework
 - Postgres DB
 - Docker
+- AWS
 
 ## [7] OpenAPI Standards
 
