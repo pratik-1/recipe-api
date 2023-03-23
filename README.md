@@ -1,3 +1,4 @@
+[![Checks](https://github.com/pratik-1/recipe-api/actions/workflows/checks.yml/badge.svg)](https://github.com/pratik-1/recipe-api/actions/workflows/checks.yml)
 # Recipe App
 
 This containerized portable application is able to create new user, creates multiple recipes and assigns tags and ingredients to recipes. The project development follows Test driven development and configured with Github CICD.
